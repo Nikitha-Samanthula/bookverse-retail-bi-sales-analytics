@@ -40,24 +40,7 @@ These tables are connected through primary and foreign key relationships, allowi
 # 📚 Analysis Performed
 
 ## Sales Performance Analysis
-
-We analyzed BookVerse sales performance to understand overall revenue generation, order activity, and product demand.
-
-The analysis was performed based on:
-
-* Book
-* Author
-* Genre
-* Order quantity
-* Total order amount
-* Order date
-* Monthly sales
-* Yearly sales
-
-This helped identify which books, authors, and genres contribute the most to BookVerse revenue and sales volume.
-
-Key areas analyzed included:
-
+We analyzed the sales performance based on:
 * Total number of orders
 * Total quantity of books sold
 * Total revenue generated
@@ -138,26 +121,6 @@ We analyzed:
 
 This analysis helped identify opportunities to improve inventory planning, increase sales, target valuable customers, and optimize product promotions.
 
-## Database and Data Analysis
-
-The BookVerse project involved building and analyzing a relational MySQL database consisting of three major areas:
-
-* **Books**
-* **Customers**
-* **Orders**
-
-The database was designed using primary keys, foreign keys, and relationships between the tables. The `Orders` table connects customers and books through `Customer_ID` and `Book_ID`.
-
-Before performing business analysis, the imported data was validated by checking:
-
-* Number of records
-* Column data types
-* Missing values
-* Duplicate records
-* Primary key uniqueness
-* Foreign key consistency
-* Dataset consistency
-
 ## SQL Concepts Used
 
 During the BookVerse project, we worked with several SQL concepts, including:
@@ -173,9 +136,6 @@ During the BookVerse project, we worked with several SQL concepts, including:
 * `JOIN`
 * `GROUP BY`
 * `ORDER BY`
-* `COUNT()`
-* `SUM()`
-* `AVG()`
 * Aggregate functions
 * Filtering and sorting
 * Date-based analysis
@@ -198,5 +158,33 @@ The analysis supported recommendations related to:
 * Stock optimization
 * Sales opportunities
 
-The project ultimately connects **data exploration, SQL analysis, business insights, and Power BI dashboard development** to support better decision-making at BookVerse.
+**Tools and Technologies**
+MySQL SQL ER Diagram Relational Database Management Data Analytics
 
+## Key LearningS
+This project gave us practical experience in working with relational databases and SQL.
+
+While working on the project, we learned how to design tables, establish relationships using primary and foreign keys, write SQL queries across multiple tables, and analyze the results.
+
+We also learned that data analysis is not only about writing queries. Understanding the results and converting them into useful insights is equally important.
+
+## Challenges
+
+Some of the main challenges we faced during the project were
+Learned real-time database design
+Working with multiple related tables.
+Using SQL joins and aggregate queries.
+Creating relational database by using foreign keys.
+Maintaining data consistency.
+Writing complex JOIN queries.
+
+**Converting query results into meaningful business insights.**
+These challenges are solved by using primary keys, foreign keys, aggregate functions like sum(),avg(),count() and clauses like JOIN operations, GROUP BY, ORDER BY. Overcoming these challenges helped us improve our understanding of relational database design and SQL-based analysis.
+       
+## Conclusion
+
+The BookVerse Retail Analytics System helped us understand how SQL and relational databases can be applied to a real-world retail scenario.
+
+We successfully designed a MySQL database containing interconnected tables and performed different analyses related to books, customers, orders, sales, and inventory.
+
+The project improved our practical knowledge of SQL, database design, data analysis, and business-oriented problem solving. It also helped us understand how structured retail data can be used to identify sales patterns, understand customer behavior, monitor inventory, and support better business decisions.
