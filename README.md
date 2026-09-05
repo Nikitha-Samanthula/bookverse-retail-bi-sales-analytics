@@ -9,7 +9,7 @@ The main focus of this project was not only to store and manage the data, but al
 Overall, this project demonstrates an end-to-end approach to relational database design, SQL-based data analysis, and business intelligence, with the goal of helping BookVerse Retail make data-driven decisions and improve overall business performance.
 
 ## Project Objectives
-The main objectives of this project were:
+**The main objectives of this project were:**
 
 To design and implement a structured relational database using MySQL.
 To create relationships between the three core BookVerse retail tables.
@@ -27,7 +27,7 @@ To generate actionable insights that support sales, customer, and inventory-rela
 
 ## Database Structure
 
-The database consists of three main tables:
+**The database consists of three main tables:**
 
 Books – Contains Book ID, Title, Author, Genre, Published Year, Price, and Stock.
 
